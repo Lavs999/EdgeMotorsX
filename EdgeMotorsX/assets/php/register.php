@@ -51,9 +51,8 @@ include 'code_register.php';
 
     <div class="ctn-text">
         <div class="capa"></div>
-        <h1 class="title-description">Lorem ipsum dolor sit amet.</h1>
-        <p class="text-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque culpa architecto harum error non ipsum 
-        consequuntur? Molestiae, error quaerat, modi id sequi iste consequuntur enim dicta, possimus temporibus totam ex?</p>
+        <h1 class="title-description"> Potencia visualizada, rendimiento optimizado </h1>
+        <p class="text-description">Nuestro sistema de monitoreo inteligente proporciona una solución integral para la visualización precisa y en tiempo real de la amplitud y frecuencia de motores, permitiendo a los usuarios analizar el rendimiento y tomar decisiones informadas a través de gráficos interactivos y una interfaz intuitiva </p>
 
     </div>
 

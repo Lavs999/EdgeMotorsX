@@ -23,6 +23,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
+    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/panel.css">
   </head>
@@ -104,24 +106,24 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
           <div class="card">
             <div class="card-inner">
-              <h3>Frecuencia</h3>
-              <span class="material-icons-outlined">inventory_2</span>
+              <h3>Magnitudes y Frecuencias en Eje X</h3>
+              <span class="material-icons-outlined">cached</span>
             </div>
             <h1>249</h1>
           </div>
 
           <div class="card">
             <div class="card-inner">
-              <h3>Amplitud</h3>
-              <span class="material-icons-outlined">category</span>
+              <h3> Magnitudes y Frecuencias en Eje Y</h3>
+              <span class="material-icons-outlined">cached</span>
             </div>
             <h1>25</h1>
           </div>
 
           <div class="card">
             <div class="card-inner">
-              <h3>Temperatura</h3>
-              <span class="material-icons-outlined">groups</span>
+              <h3>Magnitudes y Frecuencias en Eje Z</h3>
+              <span class="material-icons-outlined">cached</span>
             </div>
             <h1>1500</h1>
           </div>
