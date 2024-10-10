@@ -120,16 +120,16 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         </div>
 
         <div class="charts">
+        <div class="charts-card">
+        <h2 class="chart-title">Top 5 Products</h2>
+        <canvas id="barChart"></canvas>
+        </div>
 
-          <div class="charts-card">
-            <h2 class="chart-title">Top 5 Products</h2>
-            <div id="bar-chart"></div>
-          </div>
-
-          <div class="charts-card">
-            <h2 class="chart-title">Purchase and Sales Orders</h2>
-            <div id="area-chart"></div>
-          </div>
+        <div class="charts-card">
+        <h2 class="chart-title">Purchase and Sales Orders</h2>
+        <canvas id="areaChart"></canvas>
+        </div>
+      </div>
 
         </div>
       </main>
@@ -138,8 +138,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     </div>
 
     <!-- Scripts -->
-    <!-- ApexCharts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
+    <!-- Charts.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <!-- Custom JS -->
     <script src="../js/panel.js"></script>
   </body>
